@@ -5,6 +5,7 @@ nav {
 nav a {
     color: blue;
     padding: 2px;
+    di
 }
 h1 {
     color: rgb(43, 23, 84);
@@ -15,7 +16,7 @@ main{
 aside{
     width: 20rem;
     margin: 20px;
-    border: 2px solid black;
+    border: 3px solid black;
     padding: 10px;
     background-color: rgb(235, 226, 226);
     color: black;  
@@ -23,6 +24,9 @@ aside{
 img {
     width: 200px;
     height: auto;
+    border: 3px solid rgb(168, 166, 42);
+    padding: 1px;
+    box-shadow: 1rem;
 
 }
 main img {
