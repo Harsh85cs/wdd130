@@ -26,7 +26,7 @@ img {
     height: auto;
     border: 3px solid rgb(168, 166, 42);
     padding: 1px;
-    box-shadow: 1rem;
+    box-shadow: 5px 5px 5px grey;
 
 }
 main img {
