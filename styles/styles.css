@@ -1,11 +1,11 @@
 nav {
     background-color: rgb(218, 204, 182);
-    padding: .5rem;
+    padding: .35rem;
 }
 nav a {
     color: blue;
-    padding: 2px;
-    display: inline-block;
+    padding: 1px;
+    display: block;
 }
 h1 {
     color: rgb(43, 23, 84);
@@ -31,6 +31,10 @@ img {
 }
 main img {
     width: 150px;
+    height: auto;
+}
+aside img {
+    width: 200px;
     height: auto;
 }
 
