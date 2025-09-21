@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 :root{
     --color-nav: rgb(218, 204, 182);
     --color-aside: rgb(235, 226, 226);
@@ -19,14 +24,12 @@ h1 {
 }
 main{
     max-width: 840px;
+    margin: 1rem ;
 }
 aside{
-    width: 20rem;
-    margin: 20px;
-    border: 3px solid black;
-    padding: 10px;
-    background-color: var(--color-aside);
-    color: black;  
+    width: 20rem;  
+    margin: 10px 0;
+    position: relative;
 }
 img {
     width: 200px;
@@ -34,17 +37,24 @@ img {
     border: var(--color-borde-img) solid 2px;
     padding: 1px;
     box-shadow: 5px 5px 5px grey;
-
+    margin: 10px;
 }
 main img {
     width: 200px;
     height: auto;
+    float: right;
 }
 aside img {
-    width: 200px;
+    width: 95%;
     height: auto;
+    display: block;
 }
-
+aside h2 {
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
 p {
     padding: 0;
 }
@@ -53,3 +63,12 @@ p {
     border-top: 2px solid black;
     text-align: center;
  }
+
+/*Class Selectors   */
+.box{
+    margin: 1rem;
+    border: 3px solid black;
+    padding: 1rem;
+    background-color: var(--color-aside);
+    color: black;
+}
