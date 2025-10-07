@@ -1,7 +1,7 @@
 :root {
   --primary-color: #2c3e50;       /* Deep river blue */
   --secondary-color: #16a085;     /* Teal water */
-  --accent1-color: #a0963be2;       /* Vibrant orange (energy) */
+  --accent1-color: #decc2576;       /* Vibrant orange (energy) */
   --accent2-color: #ecf0f1;       /* Light background (foam or sky) */
   --heading-font: 'oswald', sans-serif;
   --body-font: 'roboto', sans-serif;
@@ -9,6 +9,33 @@
 header {
     background-color: var(--accent2-color);
     color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    margin: 1rem auto;
+    border-bottom: 1px solid #333;
+}
+header img {
+    width: 100px;
+    height: auto;
+    margin: 8px 16px 8px 32px;
+    position: relative;
+}
+nav {
+    display: flex;
+    justify-content: end;
+}
+nav a {
+    color: #003cbd;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 12px;
+    border: #000 2px solid ;
+    border-left: none;
+    background-color: rgba(110, 159, 180, 0.573);
+}
+nav a:first-child {
+    border-left: #000 2px solid ;
 }
 * {
     margin: 0;
@@ -31,8 +58,29 @@ nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
+
+.socialmedia {
+    max-width: 600px;
+
+}
 .socialmedia a {
+   
    text-decoration: none;
+   border: none;
+   background-color: transparent;
+   display: flex;
+   align-items: center;
+   padding: 0px
+   
+
+}
+.socialmedia a:first-child {
+    border-left: none;
+}
+.socialmedia img {
+    width: 32px;
+    height: auto;
+    margin: 0 8px;
 }
 .hero {
     position: relative;
@@ -66,4 +114,67 @@ h1 {
 .hero article img {
     float: right;
     width: 100px;
+}
+section {
+     border: #2c3e50 2px solid ;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+h2 {
+    text-align: center;
+    margin: 8px;
+    padding: 8px;
+    width: auto;
+}
+.history p {
+    text-align: left;
+    width: 200px;
+    justify-content: baseline;
+}
+.history img {
+    width: 200px;
+    height: auto;
+}
+.figure-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 0px;
+}
+.figure-row figure {
+    margin: 0px;
+    text-align: center;
+    width: fit-content;
+}
+figure img {
+    width: 120px;
+    height: auto;
+    display: block;
+}
+figure figcaption {
+    font-size: 0.9rem;
+    margin-top: 8px;
+    text-align: center;
+}
+footer {
+    border: #2c3e50 2px solid ;
+    display: flex;
+    justify-content: center;
+    background-color: var(--accent2-color);
+}   
+footer p {
+    text-align: center;
+    padding: 16px 8px ;
+    max-width: 100%;
+    max-height: 100px;
+    margin: 1rem;
+    justify-content: center;
 }

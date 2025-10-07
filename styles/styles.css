@@ -76,7 +76,7 @@ p {
 }
  footer {
     margin-top: 10px;
-    border-top: 2px solid black;
+    border: 2px solid rgb(115, 7, 7);
     text-align: center;
     background-color: #beb97c;
     padding: 2rem 1rem;
