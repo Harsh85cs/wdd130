@@ -136,7 +136,7 @@ h2 {
 .history p {
     text-align: left;
     width: 200px;
-    justify-content: baseline;
+    justify-content: center;
 }
 .history img {
     width: 200px;
