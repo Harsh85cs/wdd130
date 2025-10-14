@@ -96,7 +96,7 @@ footer {
     grid-gap: 0.5rem;
 }
 .column1 {
-    grid-template-columns: 3fr  1fr;
+    grid-template-columns: 420px 1fr;
     margin: 0.5rem 0;
     text-align: center;
     justify-items: space-evenly;
