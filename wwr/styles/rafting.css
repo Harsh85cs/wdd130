@@ -162,15 +162,15 @@ form, fieldset {
     display: grid;
     grid-template-columns: 0.2fr 0.8fr;
     grid-template-rows: auto;
-    gap: 5px px;
-    ;
+    gap: 5px;
+    margin: 2px 9px ;
+    padding: 9px 8px 0px 10px;
 }
 .form-item.column3 {
-    margin: 2px 10px ;
-    padding: 10px;
+    margin: 2px 9px ;
+    padding: 9px 8px 0px 10px;
     display: flex;
     flex-direction: column;
-    gap: 0;
 }
 input[type="checkbox"] {
     margin-right: 8px;
