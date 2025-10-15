@@ -150,6 +150,13 @@ h2 {
     text-align: center;
     width: fit-content;
 }
+.figure-space {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-around;
+    margin: 0px;
+}
 figure img {
     width: 120px;
     height: auto;
