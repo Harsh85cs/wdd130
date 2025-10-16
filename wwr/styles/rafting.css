@@ -105,9 +105,13 @@ nav, p, section, article {
   transition: background-color 0.3s ease;
   justify-content: space-evenly;
 }
-.cta-button2 {
-    display: inline-flex;
-    width: fit-content;
+.cta-contact {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.cta-contact .cta-button2 {
+    display: grid;
     background-color: var(--secondary-color);
     color: #ffffff;
     padding: 12px 24px;
@@ -116,14 +120,10 @@ nav, p, section, article {
     border-radius: 6px;
     transition: background-color 0.3s ease;
     justify-content: center;
-    align-items: center;
-
-
-  }
-.cta-contact {
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
 }
 
 .cta-button:hover {
