@@ -105,6 +105,26 @@ nav, p, section, article {
   transition: background-color 0.3s ease;
   justify-content: space-evenly;
 }
+.cta-button2 {
+    display: inline-flex;
+    width: fit-content;
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+.cta-contact {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
 .cta-button:hover {
   background-color: #005fa3;
@@ -220,9 +240,9 @@ form {
 }
 .form-item.column1 {
     display: grid;
-    grid-template-columns: 0.2fr 0.8fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    gap: 5px;
+    gap: 4px;
     margin: 2px 9px ;
     padding: 9px 8px 0px 10px;
 }
@@ -274,6 +294,83 @@ section {
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+.trip-table {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: var(--body-font);
+}
+
+.trip-table h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+th,
+td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #f0f8ff;
+}
+
+@media (max-width: 600px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 0.5rem;
+  }
+
+  td {
+    position: relative;
+    padding-left: 50%;
+    text-align: right;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 1rem;
+    top: 0.75rem;
+    font-weight: bold;
+    text-align: left;
+  }
 }
 
 h2 {
@@ -331,6 +428,16 @@ figure figcaption {
     font-size: 0.9rem;
     margin-top: 8px;
     text-align: center;
+    width: 130px;
+}
+.figcaption figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 8px;
+    width: 240px;
+    background-color: var(--accent2-color);
+    padding: 4px;
+
 }
 footer {
     border: #2c3e50 2px solid ;
