@@ -48,10 +48,24 @@
                         <input type="email" id="email" name="email" placeholder="Placeholder"><br>
                     </div>
                     <div class="form-item column1">
-                        <label for="reason">Message Purpose:</label><br>
-                        <input type="radio" name="reason" value="question"> General Inquiry<br>
-                        <input type="radio" name="reason" value="comment"> Reservation Question<br>
-                        <input type="radio" name="reason" value="concern"> Website Suggestion<br>
+                        <fieldset>
+                            <legend>Message Purpose:</legend>
+
+                            <div>
+                                <input type="radio" id="reason-question" name="reason" value="question">
+                                <label for="reason-question">General Inquiry</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" id="reason-comment" name="reason" value="comment">
+                                <label for="reason-comment">Reservation Question</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" id="reason-concern" name="reason" value="concern">
+                                <label for="reason-concern">Website Suggestion</label>
+                            </div>
+                        </fieldset>
                     </div>
                     <div class="form-item column3">
                         <label for="message">Message:</label><br>

@@ -265,6 +265,10 @@ form {
     margin: 2px 9px ;
     padding: 9px 8px 0px 10px;
 }
+.form-item.column1 label {
+    font-size: 1rem;
+    font-weight: normal;
+}
 .form-item.column3 {
     margin: 2px 9px ;
     padding: 9px 8px 0px 10px;
