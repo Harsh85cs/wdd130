@@ -230,7 +230,7 @@ h2 {
     width: 420px;
     display: grid;
     justify-content: left;
-    margin: 16px;
+    margin: 0.5rem auto;
     position: relative;
     padding: 16px 0px;
 }
@@ -244,10 +244,10 @@ form {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin: 16px;
-    padding: 16px;
+    margin: 8px;
+    padding: 8px;
     font-weight: bold;
-    font-size: 1.2rem;;
+    font-size: 1.2rem;
 }
 .form-item.row2 {
     margin: 1px 10px 1px 10px;
