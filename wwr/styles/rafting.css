@@ -442,6 +442,10 @@ section p {
     justify-content: space-around;
     margin: 0px;
 }
+.figure-space figcaption {
+    font-size: 1.5rem;
+    margin: 8px;
+}
 figure img {
     width: auto;
     height: 150px;
