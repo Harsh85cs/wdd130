@@ -179,8 +179,6 @@ nav, p, section, article {
 .info h1, .info h2 {
     position: relative;
     top: 10px;
-    color: none;
-
 }
 .info h1{
     font-size: 2rem;
